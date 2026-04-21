@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-start: #000f23;
+  --bg-end: #002c68;
+  --text-primary: #f5eff6;
+  --violet-10: #f5eff6;
+  --violet-50: #b182b7;
+  --violet-60: #9e63a5;
+  --rose-60: #a2337d;
+  --rose-20: rgba(236, 213, 229, 0.2);
+  --card-bg: rgba(215, 215, 215, 0.08);
+  --button-stroke: #f6eaf2;
+  --picto: #ffffff;
+}
+
+html,
+body {
+  height: 100%;
+  background: #000;
+  color: var(--text-primary);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior-y: none;
+}
+
+body {
+  min-height: 100svh;
+  overflow-x: hidden;
+}
+
+button {
+  font-family: inherit;
+}
+
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--text-primary);
+  paint-order: stroke fill;
+}
+
+.safe-top {
+  padding-top: max(env(safe-area-inset-top), 12px);
+}
+
+.safe-bottom {
+  padding-bottom: max(env(safe-area-inset-bottom), 16px);
+}
+
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.drag-none {
+  -webkit-user-drag: none;
+  user-drag: none;
+}
