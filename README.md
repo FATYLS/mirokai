@@ -4,6 +4,16 @@
 
 **Démo en ligne** → [mirokai-alpha.vercel.app](https://mirokai-alpha.vercel.app)
 
+## Scanne pour y accéder
+
+<p align="center">
+  <a href="https://mirokai-alpha.vercel.app">
+    <img src="qrcode-mirokai.png" alt="QR code vers la démo Mirokaï" width="260" />
+  </a>
+</p>
+
+Ouvre l'appareil photo de ton téléphone, vise le QR code et touche la notification pour lancer l'app directement.
+
 ## Aperçu
 
 Parcours narratif en 4 chapitres où l'utilisateur assemble progressivement un Mirokaï en résolvant des mini-jeux :
